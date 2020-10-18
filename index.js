@@ -1,9 +1,9 @@
 const { EventEmitter } = require('events')
-const Wallet = require('ethereumjs-wallet')
-const ethUtil = require('ethereumjs-util')
+const Wallet = require('kapoiojs-wallet')
+const ethUtil = require('kapoiojs-util')
 
 const type = 'Simple Key Pair'
-const sigUtil = require('eth-sig-util')
+const sigUtil = require('kap-sig-util')
 
 class SimpleKeyring extends EventEmitter {
 
