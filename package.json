@@ -1,7 +1,7 @@
 {
-  "name": "eth-simple-keyring",
+  "name": "kap-simple-keyring",
   "version": "4.0.0",
-  "description": "A simple standard interface for a series of Ethereum private keys.",
+  "description": "A simple standard interface for a series of Kapoio private keys.",
   "main": "index.js",
   "files": [
     "index.js"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/eth-simple-keyring.git"
+    "url": "git+ssh://git@github.com/Kapoio/kap-simple-keyring.git"
   },
   "keywords": [
     "ethereum",
@@ -22,13 +22,13 @@
   "author": "Dan Finlay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-simple-keyring/issues"
+    "url": "https://github.com/Kapoio/kap-simple-keyring/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-simple-keyring#readme",
+  "homepage": "https://github.com/Kapoio/kap-simple-keyring#readme",
   "dependencies": {
-    "eth-sig-util": "^2.5.0",
-    "ethereumjs-util": "^5.1.1",
-    "ethereumjs-wallet": "^0.6.0",
+    "kap-sig-util": "git+https://github.com/Kapoio/kap-sig-util.git#master",
+    "kapoiojs-util": "git+https://github.com/Kapoio/kapoiojs-util.git#master",
+    "kapoiojs-wallet": "git+https://github.com/Kapoio/kapoiojs-wallet.git#master",
     "events": "^1.1.1"
   },
   "devDependencies": {
